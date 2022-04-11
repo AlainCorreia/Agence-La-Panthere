@@ -1040,3 +1040,35 @@ h4 {
         text-align: center;
     }
 }
+
+.services-heading {
+    max-width: 620px;
+    margin: auto;
+    padding:0 8px 8px;
+    line-height: normal;
+}
+
+blockquote {
+    border: none;
+    padding-bottom: 0;
+    max-width: 574px;
+    margin: auto;
+}
+
+blockquote p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: normal;
+}
+
+figcaption {
+    font-size: 20px;
+    color: rgba(0, 0, 0, .6);
+    padding: 0 8px;
+}
+
+.portfolio-heading {
+    max-width: 482px;
+    margin: auto;
+    padding: 0 8px;
+}
