@@ -18,7 +18,7 @@ a:hover {
 }
 
 a:focus {
-    outline: 3px solid #000000;
+    outline: 2px dashed #000000;
 }
 
 #page-loading-blocs-notifaction {
@@ -769,11 +769,12 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+    padding: 0 4px;
     text-decoration: underline!important;
 }
 
 .bold-link:focus {
-    outline: 3px solid #FFFFFF;
+    outline: 2px dashed #FFFFFF;
 }
 
 .bgc-white {
@@ -802,7 +803,14 @@ h4 {
 .btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #000000!important;
+}
+
+.btn-atomic-tangerine:hover {
     outline: 2px solid #FFFFFF;
+}
+
+.btn-atomic-tangerine:focus {
+    outline: 2px dashed #FFFFFF;
 }
 
 .ltc-white {
@@ -889,10 +897,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
-        padding-left: env(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -901,8 +905,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
     }
 }
 
