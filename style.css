@@ -349,6 +349,10 @@ a:focus {
     background: transparent !important;
 }
 
+.navbar-toggle:focus {
+    outline: 2px dashed #000000;
+}
+
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
@@ -532,15 +536,12 @@ button.btn-atomic-tangerine:focus {
     bottom: 20px;
     right: 20px;
     z-index: 500;
+    opacity: 1;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop:focus {
     outline: 2px dashed #000000;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
 }
 
 .showScrollTop {
