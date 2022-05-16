@@ -65,7 +65,7 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12">
-							<h1 class="text-center hero-bloc-text tc-white">
+							<h1 id="title" class="text-center hero-bloc-text tc-white">
 								Parlons web design !
 							</h1>
 							<p class="text-center mg-lg tc-white big-bold tight-width-whitespace">
@@ -83,8 +83,8 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate data-success-msg="Your message has been sent."
-								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1" aria-labelledby="title" novalidate data-success-msg="Votre message a été envoyé."
+								data-fail-msg="Désolé il semble que notre serveur mail ne répond pas.">
 								<div class="form-group">
 									<label for="name">
 										Nom
